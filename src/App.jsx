@@ -125,7 +125,7 @@ function App() {
 
         <div>
           <label>Skills:</label>
-          <input
+          <inpuint
             name="skills"
             value={formatData.skills}
             onChange={handleChange}
