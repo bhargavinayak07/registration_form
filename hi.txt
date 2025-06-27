@@ -1,0 +1,31 @@
+git init project
+cd project
+gedit p1.txt
+git add .
+git commit -m "k"
+git branch
+create a new repo eg:gat in github 
+cd gat
+git fetch origin
+github->newfile->hi.txt->save
+git pull origin main
+ls
+gedit hi.txt
+git add .
+git commit -m "p"
+git push origin main
+git branch
+git checkout -b slave
+git rebase slave
+ls
+git push origin slave --force
+
+
+
+git branch
+echo "hi">p.txt
+git add .
+git commit -m "p"
+git checkout main
+git merge slave -m "p"
+git merge slave --no-f -e (editor will open) ctrl O enter ctrl X
